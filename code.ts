@@ -229,8 +229,6 @@ async function dumpNode(node: SceneNode): Promise<DumpResult> {
   return result;
 }
 
-export {};
-
 (async function main() {
   const selection = figma.currentPage.selection;
 
