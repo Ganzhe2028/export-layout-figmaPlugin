@@ -1,7 +1,7 @@
 {
   "name": "dump-layout",
   "version": "1.0.0",
-  "description": "Your Figma Plugin",
+  "description": "一键导出 Figma 选中节点的完整设计数据为 JSON。递归导出 Auto Layout、圆角、阴影、文本、组件、变量绑定等全部属性。",
   "main": "code.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -10,7 +10,7 @@
     "watch": "npm run build -- --watch"
   },
   "author": "",
-  "license": "",
+  "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^9.39.4",
     "@figma/eslint-plugin-figma-plugins": "*",
